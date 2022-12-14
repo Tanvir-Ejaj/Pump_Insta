@@ -51,8 +51,9 @@ ul {
   padding-left: 0;
 }
 
-body{
+body {
   overflow-x: hidden;
+  /* background: rgba(255, 0, 0, 0.438) !important; */
 }
 
 /* Common css area end */
@@ -207,7 +208,7 @@ body{
   margin-bottom: 150px;
 }
 
-.counter-container {
+.counter-wrapper {
   padding: 97px 0;
   background: #f4f4f4;
   border-radius: 30px;
@@ -594,7 +595,7 @@ body{
 
 /* Know area start */
 
-#know{
+#know {
   margin-bottom: 150px;
 }
 
@@ -630,21 +631,21 @@ body{
 }
 
 .accordion-button:focus {
-	z-index: 3;
-	border: none;
-	outline: 0;
-	box-shadow: none;
+  z-index: 3;
+  border: none;
+  outline: 0;
+  box-shadow: none;
 }
 
 .accordion-item:first-of-type {
-	border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	-ms-border-radius: 20px;
-	-o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
-.accordion-body p{
+.accordion-body p {
   font-size: 16px;
   font-weight: var(--regular-font-weight);
   color: var(--secondary-color);
@@ -664,8 +665,8 @@ body{
 
 /* Footer area start */
 
-footer{
-  background: #F4F4F4;
+footer {
+  background: #f4f4f4;
   padding: 150px 0;
 }
 
@@ -688,7 +689,7 @@ footer{
 }
 
 .footer-head p {
-	padding: 42px 100px 20px 0;
+  padding: 42px 100px 20px 0;
 }
 
 .footer-links ul li a {
@@ -700,24 +701,24 @@ footer{
   padding: 5px 0;
 }
 
-.footer-form input{
-  background: #FFFFFF;
+.footer-form input {
+  background: #ffffff;
   border: none;
   outline: none;
   padding: 15px 20px;
 }
 
-.footer-form input::placeholder{
+.footer-form input::placeholder {
   font-size: 16px;
   color: var(--secondary-color);
 }
 
-.footer-form input:focus{
+.footer-form input:focus {
   border: none;
   outline: 0;
 }
 
-.footer-form button{
+.footer-form button {
   padding: 15px 17px;
   border: 1px solid #e90024;
   background: #e90024;
@@ -738,7 +739,7 @@ footer{
   margin-left: -3px;
 }
 
-.footer-form button:hover{
+.footer-form button:hover {
   color: var(--fifth-color);
   background: transparent;
   border: 1px solid #e90024;
